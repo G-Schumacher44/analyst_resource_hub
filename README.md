@@ -18,11 +18,11 @@ This is my personal knowledge vault — a curated and structured collection of c
 - Built originally in Obsidian, published here as both a **quick-access reference** and a **public portfolio artifact**
 - Focuses on real-world execution: cleaning, modeling, diagnostics, and pipeline structuring
 - Includes:
+- Python, SQL, and workflow sections
   - ✅ Checklists & QA routines
   - 📋 Decision cards for strategy selection
   - 📘 Guidebooks by topic area
   - 🧭 QuickRefs & visual companions
-  - 🐍 Python, 📊 SQL, and 🖇️ workflow sections
 
 ## 🧭 Orientation & Getting Started
 
