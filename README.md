@@ -76,9 +76,9 @@ ___
 
 # 🗺️ Resource Map
 
+```txt
 🐍 Python Modules
 
-```txt
 Python/01 - QuickRef/
   ├── 01 - Checklists/               ✅ Execution workflows
   ├── 02 - Decision Cards/          📋 Strategy selectors
