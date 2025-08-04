@@ -1,16 +1,3 @@
----
-Title: PLAN-📚-Vault_Emoji_Codex_v1
-Project: Analyst_Toolkit_Vault
-Author: Garrett Schumacher
-Date: 2025-05-05
-Tags: 
-  - plan
-  - vault_structure
-  - emoji_codex
-  - analyst_toolkit
----
-
-
 
 # 📚 Analyst Toolkit Vault – Emoji Codex
 
@@ -18,6 +5,24 @@ This codex defines the emoji system used to visually organize the Analyst Toolki
 Each emoji represents the purpose and style of a document.
 
 ---
+
+
+## 🐍 Python
+- **Meaning**: Python-specific scripts, modules, or language-centric reference materials.
+- **Example**: `🐍 - Logistic Modeling -logistic_modeling_extentions.py.md`
+
+---
+
+## 🖇️ Workflow & Projects
+- **Meaning**: Project scaffolds, pipelines, or guides that document end-to-end workflows or reusable delivery frameworks.
+- **Example**: `🖇️ Gold Standard Project Framework for Professional Data Projects.md`
+
+---
+
+## 🚛 SQL
+- **Meaning**: SQL query patterns, analytics use cases, pipeline strategies, and warehouse-oriented playbooks.
+- **Example**: `🚛 SQL Basics Guidebook.md`
+
 
 ## 📘 Guidebooks
 - **Meaning**: Full guides that explain concepts, methods, and workflows in detail.
@@ -37,12 +42,6 @@ Each emoji represents the purpose and style of a document.
 
 ---
 
-## 📜 Cheat Sheets
-- **Meaning**: Condensed reference sheets for fast recall of important formulas, concepts, or outputs.
-- **Example**: `📜 Logistic Regression Cheat Sheet.md`
-
----
-
 ## 🧭 Quick References
 - **Meaning**: Rapid lookup guides and trigger maps for tasks like handling multicollinearity, assumptions checks, and feature transformations.
 - **Example**: `🧭 Logistic and Logit Function Quickref.md`
@@ -55,17 +54,3 @@ Each emoji represents the purpose and style of a document.
 
 ---
 
-## 🗾 Flow Maps / Flowcharts
-- **Meaning**: Visual roadmaps for method selection, modeling workflows, and analysis pipelines.
-- **Example**: `🗾 Logistic Regression Flow Map.md`
-
----
-
-# 🛠️ Usage Notes
-- Stay modular: Create documents that solve one clear problem.
-- Stay visual: Use emojis consistently for instant document recognition.
-- Expandable: New emojis can be added later if needed (e.g., 📦 for deployment kits, 🧪 for experiments).
-
----
-
-> **"Organized mind, organized vault."** 🔥
