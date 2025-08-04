@@ -70,6 +70,52 @@ To make the vault easier to skim and navigate, each document uses an emoji prefi
 
 For a full legend, see the [📚 Vault Emoji Codex](emoji_codex.md).
 
+</details>
+
+___
+
+# 🗺️ Resource Map
+
+🐍 Python Modules
+
+```txt
+Python/01 - QuickRef/
+  ├── 01 - Checklists/               ✅ Execution workflows
+  ├── 02 - Decision Cards/          📋 Strategy selectors
+  └── 02 - Referece Guides/         🧭 Quick references
+
+Python/02 - Data Wrangling & EDA/
+  ├── Data Wrangling/               📘 Feature transformation & validation
+  └── EDA/                          📊 Exploratory workflows
+
+Python/03 - Cleaning/              🧼 Foundational and advanced cleaning guides
+
+Python/04 - Machine Learning Models/
+  ├── 01 - Regression/              📘 Linear & Logistic modeling resources
+  ├── 02 - Supervised/              📊 Classifier guidebooks and visuals
+  └── 03 - Unsupervised/            📋 Clustering diagnostics and workflows
+
+Python/05 - Scripts/
+  ├── 01 - Python/                  🧪 Cleaning, validation, modeling scripts
+  └── 02 - eda_toolkit/             🧰 Modular tools for EDA diagnostics
+
+🚛 SQL Modules
+
+SQL/01 - Guidebooks/               📘 SQL basics to advanced playbooks
+
+SQL/02 - BigQuery and Looker/
+  ├── 01 - BigQuery/                🧱 Patterns, optimization, and pipelines
+  └── 02 - Looker Studio/           📊 Dashboard UX and parameter guides
+
+🖇️ Workflow + Projects
+
+WorkFlow+Projects/
+  ├── ✅ Notebook readiness checklist
+  ├── 📘 Project pipeline templates
+  └── 🥇 Gold standard scaffolds
+```
+___
+
 ## 🤝 On Generative AI Use
 
 Generative AI tools (Gemini 2.5-PRO, ChatGPT 4o - 4.1) were used throughout this project as part of an integrated workflow — supporting code generation, documentation refinement, and idea testing. These tools accelerated development, but the logic, structure, and documentation reflect intentional, human-led design. This repository reflects a collaborative process: where automation supports clarity, and iteration deepens understanding.
