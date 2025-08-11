@@ -101,12 +101,19 @@
     }
   }
 
-  /* Round all buttons and apply brand colors */
+  /* Subtle rounding for all buttons and apply brand colors */
   .hero .md-button,
   .links .md-button,
   .footer-actions .md-button {
-    border-radius: 999px;
+    border-radius: 6px;
     border: none;
+  }
+
+  /* Reduce button height and padding for hero and links */
+  .hero-actions .md-button,
+  .links .md-button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
   }
 
   /* Primary buttons: match card background for consistency */
