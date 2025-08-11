@@ -43,7 +43,7 @@ def make_results(model_name:str, model_object, metric:str):
     return table
 ```
 
-📜 get scores from coursera
+📜 get test scores 
 ```python
 def get_test_scores(model_name:str, preds, y_test_data):
     '''
