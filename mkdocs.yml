@@ -39,7 +39,6 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
 nav:
-  - "Home": index.md
   - Python:
       - "Python Overview": python/index.md
       - "QuickRef":
