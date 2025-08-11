@@ -1,0 +1,19 @@
+.hero {
+  background: linear-gradient(135deg, #004e92, #000428);
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.hero h1 {
+  margin-bottom: 0.5rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto 1.5rem auto;
+}
+.hero .md-button {
+  margin: 0.5rem;
+}

@@ -1,0 +1,263 @@
+site_name: Analyst Resource Hub
+site_url: https://g-schumacher44.github.io/analyst_resource_hub/
+repo_url: https://github.com/G-Schumacher44/analyst_resource_hub
+site_author: G. Schumacher
+copyright: Copyright &copy; 2023 G. Schumacher
+extra_css:
+  - assets/stylesheets/extra.css
+theme:
+  name: material
+  logo: 
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.instant
+    - content.code.copy
+    - navigation.tracking
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - header.autohide
+    - navigation.prune
+    - navigation.top
+  font:
+    text: Inter
+    code: Fira Code
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: blue grey
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: blue grey
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+nav:
+  - Home: index.md
+  - Python:
+      - "Python Overview": python/index.md
+      - "QuickRef":
+          - "Overview": python/01 - QuickRef/index.md
+          - Checklists:
+              - "Overview": python/01 - QuickRef/01 - Checklists/index.md
+              - "Foundational Cleaning": "python/01 - QuickRef/01 - Checklists/✅ Cleaning Checklist — Foundational Cleaning & Normalization.md"
+              - "Advanced Cleaning": "python/01 - QuickRef/01 - Checklists/✅ Cleaning Checklist — Advanced QA & Production Cleaning.md"
+              - "EDA Workflow": "python/01 - QuickRef/01 - Checklists/✅ EDA Workflow Checklist.md"
+              - "Logistic Regression EDA": "python/01 - QuickRef/01 - Checklists/✅ Logistic Regression EDA Workflow Checklist.md"                                
+              - "ANOVA / ANCOVA / MANOVA": "python/01 - QuickRef/01 - Checklists/✅  ANOVA - ANCOVA - MANOVA - MANCOVA EDA Checklist.md"
+              - "Classifier Evaluation": "python/01 - QuickRef/01 - Checklists/✅ Classifier Evaluation Checklist.md"
+              - "Clustering Evaluation": "python/01 - QuickRef/01 - Checklists/✅ Clustering Evaluation Checklist.md"
+              - "Linear Regression Modeling": "python/01 - QuickRef/01 - Checklists/✅ Linear Regression Modeling Workflow Checklist.md"
+              - "Linear Regression Visual EDA": "python/01 - QuickRef/01 - Checklists/✅ Linear Regression Visual EDA Workflow.md"
+              - "Logistic Regression Modeling": "python/01 - QuickRef/01 - Checklists/✅ Logistic Regression Modeling Workflow Checklist.md"
+          - Decision Cards:
+              - "Overview": python/01 - QuickRef/02 - Decision Cards/index.md
+              - Data Wrangling & EDA:
+                  - "Overview": python/01 - QuickRef/02 - Decision Cards/01 - Data Wrangling & EDA/index.md
+                  - "EDA Strategy": "python/01 - QuickRef/02 - Decision Cards/01 - Data Wrangling & EDA/📋 EDA Strategy Decision Card.md"
+                  - "Validation Strategy": "python/01 - QuickRef/02 - Decision Cards/01 - Data Wrangling & EDA/📋 Validation Strategy Decision Card.md"
+                  - "Missingness Handling": "python/01 - QuickRef/02 - Decision Cards/01 - Data Wrangling & EDA/📋 Missingness Handling Decision Card.md"
+                  - "Encoding Strategy": "python/01 - QuickRef/02 - Decision Cards/01 - Data Wrangling & EDA/📋 Encoding Strategy Decision Card.md"
+                  - "Feature Transformation (Linear)": "python/01 - QuickRef/02 - Decision Cards/01 - Data Wrangling & EDA/📋 Feature Transformation Trigger Card (Linear Models).md"
+                  - "Feature Transformation (Logistic)": "python/01 - QuickRef/02 - Decision Cards/01 - Data Wrangling & EDA/📋 Feature Transformation Trigger Card (Logistic & Count Models).md"
+              - Cleaning:
+                  - "Overview": python/01 - QuickRef/02 - Decision Cards/02 - Cleaning/index.md
+                  - "Dirty Column": "python/01 - QuickRef/02 - Decision Cards/02 - Cleaning/📋 Dirty Column Decision Card.md"
+                  - "Missingness Handling": "python/01 - QuickRef/02 - Decision Cards/02 - Cleaning/📋 Missingness Handling Decision Card.md"
+                  - "Outlier Action": "python/01 - QuickRef/02 - Decision Cards/02 - Cleaning/📋 Outlier Action Decision Card.md"
+              - Regression Modeling:
+                  - "Overview": python/01 - QuickRef/02 - Decision Cards/03 - Regression Modeling/index.md
+                  - Linear:
+                      - "Overview": python/01 - QuickRef/02 - Decision Cards/03 - Regression Modeling/Linear/index.md
+                      - "Regularization": "python/01 - QuickRef/02 - Decision Cards/03 - Regression Modeling/Linear/📋 Regularization Decision Card.md"                     
+                      - "AIC vs BIC?": "python/01 - QuickRef/02 - Decision Cards/03 - Regression Modeling/Linear/📋 AIC vs BIC Decision Card.md"
+                  - Logistic:
+                      - "Overview": python/01 - QuickRef/02 - Decision Cards/03 - Regression Modeling/Logistic/index.md
+                      - "Feature Transformation": "python/01 - QuickRef/02 - Decision Cards/03 - Regression Modeling/Logistic/📋 Logistic Feature Transformation Trigger Card (Logistic Regression).md"
+                      - "Metric Selector": "python/01 - QuickRef/02 - Decision Cards/03 - Regression Modeling/Logistic/📋 Logistic Model Evaluation Metric Selector.md"
+                      - "Model Type Selection": "python/01 - QuickRef/02 - Decision Cards/03 - Regression Modeling/Logistic/📋 Logistic Model Type Selection Decision Card.md"
+                      - "Proportional Odds Assumption": "python/01 - QuickRef/02 - Decision Cards/03 - Regression Modeling/Logistic/📋 Proportional Odds Assumption Trigger Card.md"
+                      - "Threshold Tuning": "python/01 - QuickRef/02 - Decision Cards/03 - Regression Modeling/Logistic/📋 Threshold Tuning Decision Card.md"
+              - Supervised ML:
+                  - "Overview": python/01 - QuickRef/02 - Decision Cards/04 - Supervised ML/index.md
+                  - "Classifier Model": "python/01 - QuickRef/02 - Decision Cards/04 - Supervised ML/📋 Classifier Model Decision Card.md"
+                  - "Naive Bayes vs KNN": "python/01 - QuickRef/02 - Decision Cards/04 - Supervised ML/📋 Naive Bayes vs KNN Trigger Card.md"
+                  - "Tree vs Forest vs Boosted": "python/01 - QuickRef/02 - Decision Cards/04 - Supervised ML/📋 Tree vs Forest vs Boosted Trees Decision Card.md"
+              - Unsupervised ML:
+                  - "Overview": python/01 - QuickRef/02 - Decision Cards/05 - Unsupervised ML/index.md
+                  - "Clustering Model": "python/01 - QuickRef/02 - Decision Cards/05 - Unsupervised ML/📋 Clustering Model Decision Card.md"
+                  - "Clustering Model Selection": "python/01 - QuickRef/02 - Decision Cards/05 - Unsupervised ML/📋 Clustering Model Selection Decision Card.md"
+          - Reference Guides:
+              - "Overview": python/01 - QuickRef/02 - Referece Guides/index.md
+              - Data Wrangling & EDA:
+                  - "Overview": python/02 - Data Wrangling & EDA/index.md
+                  - Data Wrangling:
+                      - "Overview": python/02 - Data Wrangling & EDA/Data Wrangling/index.md
+                      - "Feature Transformation": "python/02 - Data Wrangling & EDA/Data Wrangling/📘 Feature Transformation Guide.md"
+                      - "Advanced Feature Transformation": "python/02 - Data Wrangling & EDA/Data Wrangling/📘 Advanced Feature Transformation Guide.md"
+                      - "Data Wrangling and Validation": "python/02 - Data Wrangling & EDA/Data Wrangling/📘 Data Wrangling and Validation Guide.md"
+                  - EDA:
+                      - "Overview": python/02 - Data Wrangling & EDA/EDA/index.md
+                      - "Visual Interpretation": "python/02 - Data Wrangling & EDA/EDA/📊 Visual EDA Interpretation Guide.md"
+                      - "Advanced Visual Interpretation": "python/02 - Data Wrangling & EDA/EDA/📊 Advanced EDA Visual Interpretation Guide.md"
+                      - "Statistical Interpretation": "python/02 - Data Wrangling & EDA/EDA/📊 EDA Statistical Interpretation Guide.md"
+                      - "General Guidebook": "python/02 - Data Wrangling & EDA/EDA/📘 General EDA Guidebook.md"
+                      - "Advanced Guidebook": "python/02 - Data Wrangling & EDA/EDA/📘 Advanced EDA Guidebook.md" 
+              - Cleaning:
+                  - "Basic Cleaning Utilities": "python/03 - Cleaning/📘 Cleaning Guide — Part 1 - Foundational Cleaning & Normalization.md"
+                  - "Cleaning Log Format": "python/03 - Cleaning/📘 Cleaning Guide — Part 2 - Advanced Cleaning & Production QA.md"
+              - Regression:
+                  - Linear:
+                      - "OLS + Robust": "python/01 - QuickRef/02 - Referece Guides/03 - Regression/01 - Linear/🧭 OLS + Robust Regression QuickRef**.md"
+                      - "ElasticNet": "python/01 - QuickRef/02 - Referece Guides/03 - Regression/01 - Linear/🧭 ElasticNet Regression QuickRef.md"
+                      - "Lasso": "python/01 - QuickRef/02 - Referece Guides/03 - Regression/01 - Linear/🧭 Lasso Regression QuickRef.md"
+                      - "Ridge": "python/01 - QuickRef/02 - Referece Guides/03 - Regression/01 - Linear/🧭 Ridge Regression QuickRef.md"
+                  - Logistic:
+                      - "Logistic Regression": "python/01 - QuickRef/02 - Referece Guides/03 - Regression/02 - Logistic/🧭 Logistic Regression QuickRef.md"
+                      - "Multiclass Logistic": "python/01 - QuickRef/02 - Referece Guides/03 - Regression/02 - Logistic/🧭 Multiclass Logistic Regression QuickRef.md"
+                      - "Ordinal Logistic": "python/01 - QuickRef/02 - Referece Guides/03 - Regression/02 - Logistic/🧭 Ordinal Logistic Regression QuickRef.md"
+              - Supervised ML:
+                  - "Decision Tree": "python/01 - QuickRef/02 - Referece Guides/04 - Supervised ML/🧭 Decision Tree Classifier QuickRef.md"
+                  - "KNN Classifier": "python/01 - QuickRef/02 - Referece Guides/04 - Supervised ML/🧭 K-Nearest Neighbors (KNN) Classifier QuickRef.md"
+                  - "Naive Bayes": "python/01 - QuickRef/02 - Referece Guides/04 - Supervised ML/🧭 Naive Bayes Classifier QuickRef.md"
+                  - "Random Forest": "python/01 - QuickRef/02 - Referece Guides/04 - Supervised ML/🧭 Random Forest Classifier QuickRef.md"
+                  - "SVM Classifier": "python/01 - QuickRef/02 - Referece Guides/04 - Supervised ML/🧭 Support Vector Machine (SVM) Classifier QuickRef.md"
+              - Clustering Models:
+                  - "DBSCAN": "python/01 - QuickRef/02 - Referece Guides/05 - Clustering Models/🧭 DBSCAN Clustering QuickRef.md"
+                  - "GMM": "python/01 - QuickRef/02 - Referece Guides/05 - Clustering Models/🧭 Gaussian Mixture Model (GMM) Clustering QuickRef.md"
+                  - "HDBSCAN": "python/01 - QuickRef/02 - Referece Guides/05 - Clustering Models/🧭 HDBSCAN Clustering QuickRef.md"
+                  - "KMeans": "python/01 - QuickRef/02 - Referece Guides/05 - Clustering Models/🧭 KMeans Clustering QuickRef.md"
+      - "Data Wrangling & EDA":
+          - "Overview": python/02 - Data Wrangling & EDA/index.md
+          - Data Wrangling:
+              - "Advanced Feature Transformation": "python/02 - Data Wrangling & EDA/Data Wrangling/📘 Advanced Feature Transformation Guide.md"
+              - "Data Wrangling and Validation": "python/02 - Data Wrangling & EDA/Data Wrangling/📘 Data Wrangling and Validation Guide.md"
+              - "Feature Transformation": "python/02 - Data Wrangling & EDA/Data Wrangling/📘 Feature Transformation Guide.md"
+          - EDA:
+              - "Advanced Visual Interpretation": "python/02 - Data Wrangling & EDA/EDA/📊 Advanced EDA Visual Interpretation Guide.md"
+              - "Statistical Interpretation": "python/02 - Data Wrangling & EDA/EDA/📊 EDA Statistical Interpretation Guide.md"
+              - "Visual Interpretation": "python/02 - Data Wrangling & EDA/EDA/📊 Visual EDA Interpretation Guide.md"
+              - "Advanced Guidebook": "python/02 - Data Wrangling & EDA/EDA/📘 Advanced EDA Guidebook.md"
+              - "General Guidebook": "python/02 - Data Wrangling & EDA/EDA/📘 General EDA Guidebook.md"
+      - "Cleaning":
+          - "Overview": python/03 - Cleaning/index.md
+          - "Part 1 - Foundational": "python/03 - Cleaning/📘 Cleaning Guide — Part 1 - Foundational Cleaning & Normalization.md"
+          - "Part 2 - Advanced": "python/03 - Cleaning/📘 Cleaning Guide — Part 2 - Advanced Cleaning & Production QA.md"
+      - "Machine Learning Models":
+         - "Overview": python/04 - Machine Learning Models/index.md
+         - Regression:
+             - "Overview": python/04 - Machine Learning Models/01 - Regression/index.md
+             - Linear Modeling:
+                 - "Overview": "python/04 - Machine Learning Models/01 - Regression/01 - Linear Modeling/index.md"
+                 - "Visual Companion": "python/04 - Machine Learning Models/01 - Regression/01 - Linear Modeling/📊 Linear Regression Model Evaluation - Visual Companion.md"
+                 - "Advanced Visual Interpretation": "python/04 - Machine Learning Models/01 - Regression/01 - Linear Modeling/📈 Advanced Linear Regression Visual Interpretation Guide.md"
+                 - "Statistical Summary": "python/04 - Machine Learning Models/01 - Regression/01 - Linear Modeling/📊 Linear Regression Statistical Summary Sheet.md"
+                 - "Visual EDA for ANOVA etc.": "python/04 - Machine Learning Models/01 - Regression/01 - Linear Modeling/📊 Visual EDA Guide for ANOVA, MANOVA, ANCOVA, and MANCOVA.md"
+                 - "Model Guidebook": "python/04 - Machine Learning Models/01 - Regression/01 - Linear Modeling/📘 Linear Regression Model Guidebook.md"
+                 - "EDA for ANOVA etc.": "python/04 - Machine Learning Models/01 - Regression/01 - Linear Modeling/📘 EDA Guidebook for ANOVA, ANCOVA, MANOVA, and MANCOVA.md"
+                 - "EDA Guidebook": "python/04 - Machine Learning Models/01 - Regression/01 - Linear Modeling/📘 EDA Guidebook for Linear Regression.md"
+                 - "Advanced Guidebook": "python/04 - Machine Learning Models/01 - Regression/01 - Linear Modeling/📘 Advanced Linear Regression Guidebook.md"
+             - Logistical Modeling:
+                 - "Overview": "python/04 - Machine Learning Models/01 - Regression/02 - Logistical Modeling/index.md"
+                 - "Visual Companion": "python/04 - Machine Learning Models/01 - Regression/02 - Logistical Modeling/📊 Logistic Regression Model Evaluation -Visual Companion.md"
+                 - "Statistical Summary": "python/04 - Machine Learning Models/01 - Regression/02 - Logistical Modeling/📊 Logistic Regression Statistical Summary Sheet.md"
+                 - "Visual Interpretation (Multi/Ordinal)": "python/04 - Machine Learning Models/01 - Regression/02 - Logistical Modeling/📊 Visual Interpretation Guide — Multiclass & Ordinal Logistic Regression.md"
+                 - "Advanced Visual EDA": "python/04 - Machine Learning Models/01 - Regression/02 - Logistical Modeling/📊 Advanced Visual EDA Guide for Logistic Regression.md"
+                 - "Model Guidebook": "python/04 - Machine Learning Models/01 - Regression/02 - Logistical Modeling/📘 Logistic Regression Modeling Guidebook.md"
+                 - "EDA Guidebook": "python/04 - Machine Learning Models/01 - Regression/02 - Logistical Modeling/📘 EDA Guidebook for Logistic Regression.md"
+                 - "Multiclass & Ordinal Guidebook": "python/04 - Machine Learning Models/01 - Regression/02 - Logistical Modeling/📘 Multiclass and Ordinal Logistic Regression Guidebook.md"
+                 - "Advanced Guidebook": "python/04 - Machine Learning Models/01 - Regression/02 - Logistical Modeling/📘 Advanced Logistic Regression Guidebook.md"
+         - "Classifier Models":
+             - "Overview": python/04 - Machine Learning Models/02 - Classifier Models/index.md
+             - "Statistical Summary": "python/04 - Machine Learning Models/02 - Classifier Models/📊 Classifier Statistical Summary Sheet.md"
+             - "Visual Interpretation": "python/04 - Machine Learning Models/02 - Classifier Models/📊 Visual Interpretation Guide for Classifier Models.md"
+             - "Advanced Visual Interpretation": "python/04 - Machine Learning Models/02 - Classifier Models/📊 Advanced Classifier Visual Interpretation Guide.md"
+             - "EDA Guidebook": "python/04 - Machine Learning Models/02 - Classifier Models/📘 EDA Guidebook for Classifier Models.md"
+             - "ML & Classifier Guidebook": "python/04 - Machine Learning Models/02 - Classifier Models/📘 Machine Learning & Classifier Models Guidebook.md"
+             - "Advanced Guidebook": "python/04 - Machine Learning Models/02 - Classifier Models/📘 Advanced Classifier Modeling Guidebook.md"
+         - "Clustering Models":
+             - "Overview": python/04 - Machine Learning Models/03 - Clustering Models/index.md
+             - "Clustering Models Guidebook": "python/04 - Machine Learning Models/03 - Clustering Models/📘 Clustering Models Guidebook.md"
+             - "EDA Guidebook": "python/04 - Machine Learning Models/03 - Clustering Models/📘 EDA Guidebook for Clustering Models.md"
+             - "Advanced Guidebook": "python/04 - Machine Learning Models/03 - Clustering Models/📘 Advanced Clustering Guidebook.md"
+             - "Advanced Visual Interpretation": "python/04 - Machine Learning Models/03 - Clustering Models/📊 Advanced Clustering Visual Interpretation Guide.md"
+             - "Statistical Summary": "python/04 - Machine Learning Models/03 - Clustering Models/📊 Clustering Statistical Summary Sheet.md"
+            
+  - "Scripts":
+      - "Python":
+          - "Overview": python/05 - Scripts/01 - Python/index.md
+          - "EDA":
+              - "Overview": python/05 - Scripts/01 - Python/02 - EDA/index.md   
+              - "EDA Templates v1": "python/05 - Scripts/01 - Python/02 - EDA/🐍 - EDA - eda_templates_v1.md"
+              - "EDA Extras": "python/05 - Scripts/01 - Python/02 - EDA/🐍 - Eda Extras - eda_extras.py.md"
+          - "Cleaning":
+              - "Overview": python/05 - Scripts/01 - Python/index.md
+              - "Quick Clean Statistics Runner": "python/05 - Scripts/01 - Python/03 - Cleaning/🐍 - Quick Clean Statistics Runner - quick_cleaning__stats_runner.py.md"
+          - "Machine Learning Models":
+              - "Overview": "python/05 - Scripts/01 - Python/04 - Machine Learning Models/index.md"
+              - "Linear Modeling Extensions": "python/05 - Scripts/01 - Python/04 - Machine Learning Models/🐍 - Linear Modeling - linear_modeling_extentions.py.md"
+              - "Logistic Model Diagnostics": "python/05 - Scripts/01 - Python/04 - Machine Learning Models/🐍 - Logistic Model Diagnostics - logistic_diag.py.md"
+              - "Logistic Modeling Extensions": "python/05 - Scripts/01 - Python/04 - Machine Learning Models/🐍 - Logistic Modeling -logistic_modeling_extentions.py.md"
+              - "Model Diagnostics - Regression": "python/05 - Scripts/01 - Python/04 - Machine Learning Models/🐍 - Model Diag. - model_diag_regression.py.md"
+              - "Tree and Boost Diagnostics": "python/05 - Scripts/01 - Python/04 - Machine Learning Models/🐍 Tree and Boost Diagnostics.md"
+          - "Utilities":
+              - "Overview": "python/05 - Scripts/01 - Python/05 - Utilities/index.md"
+              - "General Utilities": "python/05 - Scripts/01 - Python/05 - Utilities/🐍 - Utilities - utils.py.md"
+          - "EDA Toolkit (Legacy)":
+              - "Overview": "python/05 - Scripts/02 - eda_toolkit/index.md"
+              - "BigQuery Loader": "python/05 - Scripts/02 - eda_toolkit/bq_loader.md"
+              - "Quick Clean Statistics Runner": "python/05 - Scripts/02 - eda_toolkit/quick_clean_stats_runner.md"
+              - "Tier 1 Cleaning": "python/05 - Scripts/02 - eda_toolkit/tier_1_clean.md"
+              - "Tier 1 EDA": "python/05 - Scripts/02 - eda_toolkit/tier_1_eda.md"
+              - "Tier 2 EDA": "python/05 - Scripts/02 - eda_toolkit/tier_2_eda.md"
+              - "Utilities": "python/05 - Scripts/02 - eda_toolkit/utils.md"
+              - "Validation": "python/05 - Scripts/02 - eda_toolkit/validation.md"
+  - SQL:
+      - "Overview": sql/index.md
+      - Guidebooks:
+          - "Overview": sql/01 - Guidebooks/index.md
+          - "SQL Basics Guidebook": "sql/01 - Guidebooks/📘 SQL Basics Guidebook.md"
+          - "Advanced SQL Guidebook": "sql/01 - Guidebooks/📘 Advanced SQL Guidebook.md"
+          - "SQL Analyst Use Cases Guidebook": "sql/01 - Guidebooks/📘 SQL Analyst Use Cases Guidebook.md"
+          - "Advanced SQL Analyst Use Cases": "sql/01 - Guidebooks/📘 Advanced SQL Analyst Use Cases Guidebook.md"
+          - "SQL to Dashboard Pipeline Guidebook": "sql/01 - Guidebooks/📘 SQL to Dashboard Pipeline Guidebook.md"
+      - "BigQuery and Looker":
+          - "Overview": sql/02 - BigQuery and Looker/index.md
+          - BigQuery:
+              - "Overview": sql/02 - BigQuery and Looker/01 - BigQuery/index.md
+              - "BigQuery Analyst Playbook": "sql/02 - BigQuery and Looker/01 - BigQuery/📘 BigQuery Analyst Playbook.md"
+              - "BigQuery Advanced Patterns": "sql/02 - BigQuery and Looker/01 - BigQuery/📘 BigQuery Advanced Patterns Guidebook.md"
+              - "BigQuery Optimization Guidebook": "sql/02 - BigQuery and Looker/01 - BigQuery/📘 BigQuery Optimization Guidebook.md"
+              - "SQL to Dashboard Pipeline Guidebook": "sql/02 - BigQuery and Looker/01 - BigQuery/📘 SQL to Dashboard Pipeline Guidebook.md"
+          - Looker Studio:
+              - "Overview": sql/02 - BigQuery and Looker/02 - Looker Studio/index.md
+              - "Looker Studio for Analysts": "sql/02 - BigQuery and Looker/02 - Looker Studio/📘 Looker Studio for Analysts — Guidebook.md"
+              - "Looker Studio Filters & Parameters Guidebook": "sql/02 - BigQuery and Looker/02 - Looker Studio/📘 Looker Studio Filters & Parameters Guidebook.md"
+              - "Looker Studio UX & Layout Strategy Guidebook": "sql/02 - BigQuery and Looker/02 - Looker Studio/📘 Looker Studio UX & Layout Strategy Guidebook.md"
+  - "Workflow Projects":
+    - "Overview": workflow_projects/index.md
+    - "Notebook Delivery Readiness Checklist": "workflow_projects/✅ Notebook Delivery Readiness Checklist.md"
+    - "Clustering Modeling Pipeline Guidebook": "workflow_projects/📘 Clustering Modeling Pipeline Guidebook.md"
+    - "Modeling Pipeline Guidebook (Regression & Classification)": "workflow_projects/📘 Modeling Pipeline Guidebook (Regression & Classification).md"
+    - "Project Structuring for Analysts — Modular Blueprint": "workflow_projects/📘 Project Structuring for Analysts — Modular Blueprint.md"
+    - "Python to Dashboard Pipeline Guidebook": "workflow_projects/📘 Python to Dashboard Pipeline Guidebook.md"
+    - "SQL + Python Notebook Workflow Guidebook for Analysts": "workflow_projects/📘 SQL + Python Notebook Workflow Guidebook for Analysts.md"
+    - "Gold Standard Project Framework for Professional Data Projects": "workflow_projects/🥇 Gold Standard Project Framework for Professional Data Projects.md"
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html

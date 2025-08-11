@@ -1,0 +1,38 @@
+
+
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+env.bak/
+env/
+
+# MkDocs build
+site/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/project files
+.idea/
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# Local data/exports
+data/
+exports/
+*.csv
+*.xlsx
+*.tmp
