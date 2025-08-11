@@ -35,7 +35,7 @@
 
   .home-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.25rem;
     margin-top: 1rem;
   }
@@ -53,6 +53,40 @@
     background: var(--gs-surface);
     color: var(--gs-text);
     box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+  }
+
+  /* Normalize card heights and layout */
+  .home-card {
+    display: flex;
+    flex-direction: column;
+    min-height: clamp(220px, 28vh, 320px);
+  }
+
+  /* Clamp the first blurb paragraph to two lines to avoid tall cards */
+  .home-card p:first-of-type {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Keep the button stack anchored at the bottom for even-looking cards */
+  .home-card .links {
+    margin-top: auto;
+  }
+
+  /* Slightly tighten buttons so they don’t bloat card height */
+  .home-card .md-button {
+    padding: 0.35rem 0.75rem;
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+
+  /* On smaller screens, let cards auto-size naturally */
+  @media (max-width: 900px) {
+    .home-card {
+      min-height: auto;
+    }
   }
   .home-card h2 { margin: 0 0 .5rem 0; font-size: 1.1rem; }
   .home-card p { margin: 0 0 .75rem 0; opacity: 1; }
