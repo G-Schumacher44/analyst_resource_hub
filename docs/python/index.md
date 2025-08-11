@@ -13,7 +13,7 @@
 ## ⚡ QuickRef
 - [Checklists](01 - QuickRef/01 - Checklists/index.md)
 - [Decision Cards](01 - QuickRef/02 - Decision Cards/index.md)
-- [Reference Guides](01 - QuickRef/02 - Referece Guides/index.md)
+- [Reference Guides](01 - QuickRef/02 - Reference Guides/index.md)
 
 ## 🧭 Data Wrangling & EDA
 - [Data Wrangling](02 - Data Wrangling & EDA/Data Wrangling/index.md)

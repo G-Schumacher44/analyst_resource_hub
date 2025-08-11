@@ -19,12 +19,12 @@ Use these resources to accelerate project startup, maintain methodological rigor
     - [📋 Supervised ML](02%20-%20Decision%20Cards/04%20-%20Supervised%20ML/index.md)
     - [📋 Unsupervised ML](02%20-%20Decision%20Cards/05%20-%20Unsupervised%20ML/index.md)
 
-- [🧭 Quick References](02%20-%20Referece%20Guides/index.md)
-    - [🧭 Data Wrangling & EDA](02%20-%20Referece%20Guides/01%20-%20Data%20Wrangling%20%26%20EDA/index.md)
-    - [🧭 Cleaning](02%20-%20Referece%20Guides/02%20-%20Cleaning/index.md)
-    - [🧭 Regression](02%20-%20Referece%20Guides/03%20-%20Regression/index.md)
-    - [🧭 Supervised ML](02%20-%20Referece%20Guides/04%20-%20Supervised%20ML/index.md)
-    - [🧭 Clustering Models](02%20-%20Referece%20Guides/05%20-%20Clustering%20Models/index.md)
+- [🧭 Quick References](02%20-%20Reference%20Guides/index.md)
+    - [🧭 Data Wrangling & EDA](02%20-%20Reference%20Guides/01%20-%20Data%20Wrangling%20%26%20EDA/index.md)
+    - [🧭 Cleaning](02%20-%20Reference%20Guides/02%20-%20Cleaning/index.md)
+    - [🧭 Regression](02%20-%20Reference%20Guides/03%20-%20Regression/index.md)
+    - [🧭 Supervised ML](02%20-%20Reference%20Guides/04%20-%20Supervised%20ML/index.md)
+    - [🧭 Clustering Models](02%20-%20Reference%20Guides/05%20-%20Clustering%20Models/index.md)
 
 ```
 🐍 Python Modules — QuickRef

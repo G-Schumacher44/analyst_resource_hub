@@ -13,6 +13,8 @@
 # 🗂️ Analyst Resource Hub: Reference Vault for Data Science & ML
 
 This is my personal knowledge vault — a curated and structured collection of checklists, decision frameworks, modeling guides, and reusable scripts developed while studying and building skills in data science, machine learning, and analytics workflows.
+
+Also published as a [MkDocs site](https://g-schumacher44.github.io/analyst_resource_hub/) for easy navigation and browsing.
  
 ## 🧩 TLDR;
 - Built originally in Obsidian, published here as both a **quick-access reference** and a **public portfolio artifact**
@@ -44,6 +46,23 @@ This vault was designed to be modular, navigable, and deeply practical — a liv
 - Obsidian vault ported to GitHub
 - Folder structure stabilized
 - Markdown files cleaned and organized for public browsing
+
+**`v0.2.0` – MkDocs site buildout**
+
+- Adopted MkDocs + Material theme
+- Added `docs/` site with section hubs: Python, SQL, Workflow & Projects
+- Custom landing page with hero + action buttons (`docs/index.md`)
+- Basic branding: logos, title, tagline, and skim-friendly emoji headers
+- Navigation + metadata wired up (`mkdocs.yml`)
+- Prepared for GitHub Pages deployment (local `mkdocs serve` ready)
+
+**`v0.2.1` – Content structure refresh** *(current)*
+
+- Tightened page hierarchy and filenames for clean URLs
+- Added QuickRef, Guidebooks, and Scripts lanes under Python
+- Consolidated BigQuery/Looker under SQL with patterns & dashboard guides
+- Created Workflow hub for scaffolds, checklists, and delivery templates
+
 
 **Upcoming Additions**
 
@@ -82,7 +101,7 @@ ___
 Python/01 - QuickRef/
   ├── 01 - Checklists/               ✅ Execution workflows
   ├── 02 - Decision Cards/          📋 Strategy selectors
-  └── 02 - Referece Guides/         🧭 Quick references
+  └── 02 - Reference Guides/         🧭 Quick references
 
 Python/02 - Data Wrangling & EDA/
   ├── Data Wrangling/               📘 Feature transformation & validation

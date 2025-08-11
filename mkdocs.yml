@@ -5,9 +5,10 @@ site_author: G. Schumacher
 copyright: Copyright &copy; 2023 G. Schumacher
 extra_css:
   - assets/stylesheets/extra.css
+extra_javascript:
+  - assets/javascripts/home_button.js
 theme:
   name: material
-  logo: 
   features:
     - navigation.tabs
     - navigation.sections
@@ -27,18 +28,18 @@ theme:
   palette:
     - scheme: default
       primary: custom
-      accent: custom
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
       primary: custom
-      accent: custom
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
 nav:
-  - Home: index.md
+  - "Home": index.md
   - Python:
       - "Python Overview": python/index.md
       - "QuickRef":
@@ -48,7 +49,7 @@ nav:
               - "Foundational Cleaning": "python/01 - QuickRef/01 - Checklists/✅ Cleaning Checklist — Foundational Cleaning & Normalization.md"
               - "Advanced Cleaning": "python/01 - QuickRef/01 - Checklists/✅ Cleaning Checklist — Advanced QA & Production Cleaning.md"
               - "EDA Workflow": "python/01 - QuickRef/01 - Checklists/✅ EDA Workflow Checklist.md"
-              - "Logistic Regression EDA": "python/01 - QuickRef/01 - Checklists/✅ Logistic Regression EDA Workflow Checklist.md"                                
+              - "Logistic Regression EDA": "python/01 - QuickRef/01 - Checklists/✅ Logistic Regression EDA Workflow Checklist.md"
               - "ANOVA / ANCOVA / MANOVA": "python/01 - QuickRef/01 - Checklists/✅  ANOVA - ANCOVA - MANOVA - MANCOVA EDA Checklist.md"
               - "Classifier Evaluation": "python/01 - QuickRef/01 - Checklists/✅ Classifier Evaluation Checklist.md"
               - "Clustering Evaluation": "python/01 - QuickRef/01 - Checklists/✅ Clustering Evaluation Checklist.md"
@@ -74,8 +75,8 @@ nav:
                   - "Overview": python/01 - QuickRef/02 - Decision Cards/03 - Regression Modeling/index.md
                   - Linear:
                       - "Overview": python/01 - QuickRef/02 - Decision Cards/03 - Regression Modeling/Linear/index.md
-                      - "Regularization": "python/01 - QuickRef/02 - Decision Cards/03 - Regression Modeling/Linear/📋 Regularization Decision Card.md"                     
-                      - "AIC vs BIC?": "python/01 - QuickRef/02 - Decision Cards/03 - Regression Modeling/Linear/📋 AIC vs BIC Decision Card.md"
+                      - "Regularization": "python/01 - QuickRef/02 - Decision Cards/03 - Regression Modeling/Linear/📋 Regularization Decision Card.md"
+                      - "AIC vs BIC": "python/01 - QuickRef/02 - Decision Cards/03 - Regression Modeling/Linear/📋 AIC vs BIC Decision Card.md"
                   - Logistic:
                       - "Overview": python/01 - QuickRef/02 - Decision Cards/03 - Regression Modeling/Logistic/index.md
                       - "Feature Transformation": "python/01 - QuickRef/02 - Decision Cards/03 - Regression Modeling/Logistic/📋 Logistic Feature Transformation Trigger Card (Logistic Regression).md"
@@ -93,7 +94,7 @@ nav:
                   - "Clustering Model": "python/01 - QuickRef/02 - Decision Cards/05 - Unsupervised ML/📋 Clustering Model Decision Card.md"
                   - "Clustering Model Selection": "python/01 - QuickRef/02 - Decision Cards/05 - Unsupervised ML/📋 Clustering Model Selection Decision Card.md"
           - Reference Guides:
-              - "Overview": python/01 - QuickRef/02 - Referece Guides/index.md
+              - "Overview": "python/01 - QuickRef/02 - Reference Guides/index.md"
               - Data Wrangling & EDA:
                   - "Overview": python/02 - Data Wrangling & EDA/index.md
                   - Data Wrangling:
@@ -113,25 +114,25 @@ nav:
                   - "Cleaning Log Format": "python/03 - Cleaning/📘 Cleaning Guide — Part 2 - Advanced Cleaning & Production QA.md"
               - Regression:
                   - Linear:
-                      - "OLS + Robust": "python/01 - QuickRef/02 - Referece Guides/03 - Regression/01 - Linear/🧭 OLS + Robust Regression QuickRef**.md"
-                      - "ElasticNet": "python/01 - QuickRef/02 - Referece Guides/03 - Regression/01 - Linear/🧭 ElasticNet Regression QuickRef.md"
-                      - "Lasso": "python/01 - QuickRef/02 - Referece Guides/03 - Regression/01 - Linear/🧭 Lasso Regression QuickRef.md"
-                      - "Ridge": "python/01 - QuickRef/02 - Referece Guides/03 - Regression/01 - Linear/🧭 Ridge Regression QuickRef.md"
+                      - "OLS + Robust": "python/01 - QuickRef/02 - Reference Guides/03 - Regression/01 - Linear/🧭 OLS + Robust Regression QuickRef.md"
+                      - "ElasticNet": "python/01 - QuickRef/02 - Reference Guides/03 - Regression/01 - Linear/🧭 ElasticNet Regression QuickRef.md"
+                      - "Lasso": "python/01 - QuickRef/02 - Reference Guides/03 - Regression/01 - Linear/🧭 Lasso Regression QuickRef.md"
+                      - "Ridge": "python/01 - QuickRef/02 - Reference Guides/03 - Regression/01 - Linear/🧭 Ridge Regression QuickRef.md"
                   - Logistic:
-                      - "Logistic Regression": "python/01 - QuickRef/02 - Referece Guides/03 - Regression/02 - Logistic/🧭 Logistic Regression QuickRef.md"
-                      - "Multiclass Logistic": "python/01 - QuickRef/02 - Referece Guides/03 - Regression/02 - Logistic/🧭 Multiclass Logistic Regression QuickRef.md"
-                      - "Ordinal Logistic": "python/01 - QuickRef/02 - Referece Guides/03 - Regression/02 - Logistic/🧭 Ordinal Logistic Regression QuickRef.md"
+                      - "Logistic Regression": "python/01 - QuickRef/02 - Reference Guides/03 - Regression/02 - Logistic/🧭 Logistic Regression QuickRef.md"
+                      - "Multiclass Logistic": "python/01 - QuickRef/02 - Reference Guides/03 - Regression/02 - Logistic/🧭 Multiclass Logistic Regression QuickRef.md"
+                      - "Ordinal Logistic": "python/01 - QuickRef/02 - Reference Guides/03 - Regression/02 - Logistic/🧭 Ordinal Logistic Regression QuickRef.md"
               - Supervised ML:
-                  - "Decision Tree": "python/01 - QuickRef/02 - Referece Guides/04 - Supervised ML/🧭 Decision Tree Classifier QuickRef.md"
-                  - "KNN Classifier": "python/01 - QuickRef/02 - Referece Guides/04 - Supervised ML/🧭 K-Nearest Neighbors (KNN) Classifier QuickRef.md"
-                  - "Naive Bayes": "python/01 - QuickRef/02 - Referece Guides/04 - Supervised ML/🧭 Naive Bayes Classifier QuickRef.md"
-                  - "Random Forest": "python/01 - QuickRef/02 - Referece Guides/04 - Supervised ML/🧭 Random Forest Classifier QuickRef.md"
-                  - "SVM Classifier": "python/01 - QuickRef/02 - Referece Guides/04 - Supervised ML/🧭 Support Vector Machine (SVM) Classifier QuickRef.md"
+                  - "Decision Tree": "python/01 - QuickRef/02 - Reference Guides/04 - Supervised ML/🧭 Decision Tree Classifier QuickRef.md"
+                  - "KNN Classifier": "python/01 - QuickRef/02 - Reference Guides/04 - Supervised ML/🧭 K-Nearest Neighbors (KNN) Classifier QuickRef.md"
+                  - "Naive Bayes": "python/01 - QuickRef/02 - Reference Guides/04 - Supervised ML/🧭 Naive Bayes Classifier QuickRef.md"
+                  - "Random Forest": "python/01 - QuickRef/02 - Reference Guides/04 - Supervised ML/🧭 Random Forest Classifier QuickRef.md"
+                  - "SVM Classifier": "python/01 - QuickRef/02 - Reference Guides/04 - Supervised ML/🧭 Support Vector Machine (SVM) Classifier QuickRef.md"
               - Clustering Models:
-                  - "DBSCAN": "python/01 - QuickRef/02 - Referece Guides/05 - Clustering Models/🧭 DBSCAN Clustering QuickRef.md"
-                  - "GMM": "python/01 - QuickRef/02 - Referece Guides/05 - Clustering Models/🧭 Gaussian Mixture Model (GMM) Clustering QuickRef.md"
-                  - "HDBSCAN": "python/01 - QuickRef/02 - Referece Guides/05 - Clustering Models/🧭 HDBSCAN Clustering QuickRef.md"
-                  - "KMeans": "python/01 - QuickRef/02 - Referece Guides/05 - Clustering Models/🧭 KMeans Clustering QuickRef.md"
+                  - "DBSCAN": "python/01 - QuickRef/02 - Reference Guides/05 - Clustering Models/🧭 DBSCAN Clustering QuickRef.md"
+                  - "GMM": "python/01 - QuickRef/02 - Reference Guides/05 - Clustering Models/🧭 Gaussian Mixture Model (GMM) Clustering QuickRef.md"
+                  - "HDBSCAN": "python/01 - QuickRef/02 - Reference Guides/05 - Clustering Models/🧭 HDBSCAN Clustering QuickRef.md"
+                  - "KMeans": "python/01 - QuickRef/02 - Reference Guides/05 - Clustering Models/🧭 KMeans Clustering QuickRef.md"
       - "Data Wrangling & EDA":
           - "Overview": python/02 - Data Wrangling & EDA/index.md
           - Data Wrangling:
@@ -196,7 +197,7 @@ nav:
               - "EDA Templates v1": "python/05 - Scripts/01 - Python/02 - EDA/🐍 - EDA - eda_templates_v1.md"
               - "EDA Extras": "python/05 - Scripts/01 - Python/02 - EDA/🐍 - Eda Extras - eda_extras.py.md"
           - "Cleaning":
-              - "Overview": python/05 - Scripts/01 - Python/index.md
+              - "Overview": "python/05 - Scripts/01 - Python/03 - Cleaning/index.md"
               - "Quick Clean Statistics Runner": "python/05 - Scripts/01 - Python/03 - Cleaning/🐍 - Quick Clean Statistics Runner - quick_cleaning__stats_runner.py.md"
           - "Machine Learning Models":
               - "Overview": "python/05 - Scripts/01 - Python/04 - Machine Learning Models/index.md"

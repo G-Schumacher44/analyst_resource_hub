@@ -18,9 +18,42 @@
   margin: 0.5rem;
 }
 :root {
-  --md-primary-fg-color: #142635; 
-  --md-primary-fg-color--light: #1c374d; 
-  --md-primary-fg-color--lighter: #142635; 
-  --md-primary-fg-color--dark: ##142635; 
-  --md-accent-fg-color: #142635; 
+  --md-primary-fg-color: #0f9b8f; 
+  --md-primary-fg-color--light: #01b2a3; 
+  --md-primary-fg-color--lighter: #0ad5c4; 
+  --md-primary-fg-color--dark: #076e65; 
+}
+/* Sidebar nav hover/focus uses brand‑tinted bg instead of grey */
+:root {
+  /* tweak the 12% to taste; lower = subtler */
+  --nav-hover-bg: color-mix(in oklab, var(--md-accent-fg-color) 12%, transparent);
+  --nav-active-bg: color-mix(in oklab, var(--md-accent-fg-color) 18%, transparent);
+}
+
+/* Primary sidebar links (sections + pages) */
+.md-nav__link:hover,
+.md-nav__link:focus {
+  background-color: var(--nav-hover-bg);
+}
+
+.md-nav__link--active {
+  background-color: var(--nav-active-bg);
+  /* choose text color you prefer */
+  color: var(--md-default-fg-color); /* or var(--md-accent-fg-color) */
+}
+
+/* Tabs strip (if you’re using tabs at the top of the sidebar) */
+.md-tabs__link:hover,
+.md-tabs__link:focus {
+  background-color: var(--nav-hover-bg);
+}
+
+.md-tabs__link--active {
+  background-color: var(--nav-active-bg);
+  color: var(--md-default-fg-color);
+}
+.home-button {
+  display: inline-flex;
+  align-items: center;
+  margin-right: .25rem;
 }
