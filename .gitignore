@@ -36,3 +36,6 @@ exports/
 *.csv
 *.xlsx
 *.tmp
+
+#do not gitignore
+!requirements.txt
