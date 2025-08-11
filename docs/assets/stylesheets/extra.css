@@ -18,9 +18,9 @@
   margin: 0.5rem;
 }
 :root {
-  --md-primary-fg-color: #082b08; /* Forest Green */
-  --md-primary-fg-color--light: #042a04; /* Forest Green */
-  --md-primary-fg-color--lighter: #082b08; /* SeaGreen */
-  --md-primary-fg-color--dark: #082b08; /* DarkGreen */
-  --md-accent-fg-color: #082b08; /* DarkGreen accent */
+  --md-primary-fg-color: #142635; 
+  --md-primary-fg-color--light: #1c374d; 
+  --md-primary-fg-color--lighter: #142635; 
+  --md-primary-fg-color--dark: ##142635; 
+  --md-accent-fg-color: #142635; 
 }
