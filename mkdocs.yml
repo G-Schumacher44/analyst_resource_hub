@@ -26,14 +26,14 @@ theme:
     code: Fira Code
   palette:
     - scheme: default
-      primary: blue grey
-      accent: blue grey
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
-      primary: blue grey
-      accent: blue grey
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode

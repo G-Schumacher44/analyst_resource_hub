@@ -17,3 +17,9 @@
 .hero .md-button {
   margin: 0.5rem;
 }
+:root {
+  --md-primary-fg-color: #228B22; /* Forest Green */
+  --md-primary-fg-color--light: #2E8B57; /* SeaGreen */
+  --md-primary-fg-color--dark: #006400; /* DarkGreen */
+  --md-accent-fg-color: #006400; /* DarkGreen accent */
+}
