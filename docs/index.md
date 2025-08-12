@@ -4,8 +4,8 @@
   <div class="hero-actions">
     <a href="python/" class="md-button md-button--primary">🐍 Browse Python</a>
     <a href="python/05%20-%20Scripts/01%20-%20Python/" class="md-button md-button--primary">🛠️ Scripts(Python)</a>
-    <a href="workflow_projects/" class="md-button md-button--primary">📦 Workflow & Projects</a>
-    <a href="sql/" class="md-button md-button--primary">🗄️ Explore SQL</a>
+    <a href="workflow_projects/" class="md-button md-button--primary">📦 Production & Projects</a>
+    <a href="sql/" class="md-button md-button--primary">🗄️ SQL & BI Tools</a>
   </div>
 </div>
 
