@@ -1,5 +1,5 @@
 ___
-🎯 Purpose
+## 🎯 Purpose
 
 This QuickRef helps you design and maintain structured logs for your cleaning and wrangling steps. Use these logs to track changes, support audits, or build reproducible pipelines.
 

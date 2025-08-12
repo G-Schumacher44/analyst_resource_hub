@@ -1,5 +1,5 @@
 ___
-🎯 Purpose
+## 🎯 Purpose
 
 This QuickRef walks you through the core logic, fitting workflow, parameter tuning, and interpretation of **Ridge Regression** — the go-to model when you want to shrink coefficients without dropping features.
 

@@ -1,10 +1,9 @@
-#GAD #Coursera #dataAnalytics #regression 
-Regression Analysis
-**Course:** [[Google Advanced Data Analytics Certificate]]  
-**Module:** 
+
 ___
 
-## 🎯 Should You Transform a Feature?
+## 🎯 Purpose
+
+### Should You Transform a Feature?
 
 ✅ Check these conditions:
 

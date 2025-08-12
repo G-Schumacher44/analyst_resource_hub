@@ -1,9 +1,6 @@
-# 🐧 Penguin Research Toolkit - EDA Template Functions
-# Version: 0.2 (May 2025)
 
-___
-## 🛠️ Post-Modeling Evaluation for OLS
-## 🏃🏻‍♀️ Function Calls
+# 🛠️ Post-Modeling Evaluation for OLS
+
 
 ```python
 # 🧹 model_diag_regression.py

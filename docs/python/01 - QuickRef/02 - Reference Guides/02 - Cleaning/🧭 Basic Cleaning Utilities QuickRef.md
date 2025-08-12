@@ -1,5 +1,5 @@
 ___
-🎯 Purpose
+## 🎯 Purpose
 
 This QuickRef provides fast, reusable Pandas patterns for common cleaning operations — including whitespace fixes, missing value handling, value replacement, type coercion, and row filtering.
 

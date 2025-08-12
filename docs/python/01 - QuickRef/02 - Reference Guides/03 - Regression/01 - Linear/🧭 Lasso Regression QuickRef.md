@@ -1,5 +1,5 @@
 ___
-🎯 Purpose
+## 🎯 Purpose
 
 This QuickRef guides you through the logic, fitting process, and interpretation of **Lasso Regression** — a linear model with built-in feature selection via L1 regularization.
 

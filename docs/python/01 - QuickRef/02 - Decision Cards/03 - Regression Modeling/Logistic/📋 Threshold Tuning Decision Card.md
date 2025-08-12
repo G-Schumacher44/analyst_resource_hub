@@ -1,5 +1,5 @@
 ___
-🎯 Purpose
+## 🎯 Purpose
 
 Use this card to determine whether your logistic regression model needs **threshold tuning** — and how to choose a better cutoff than the default 0.5.
 

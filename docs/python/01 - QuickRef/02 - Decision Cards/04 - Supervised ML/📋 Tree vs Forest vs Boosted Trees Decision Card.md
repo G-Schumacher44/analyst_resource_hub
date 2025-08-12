@@ -1,5 +1,5 @@
 ___
-🎯 Purpose
+## 🎯 Purpose
 
 Use this card to choose between a **Decision Tree**, **Random Forest**, or **Boosted Trees (e.g., XGBoost)** based on your modeling priorities — from interpretability to performance.
 

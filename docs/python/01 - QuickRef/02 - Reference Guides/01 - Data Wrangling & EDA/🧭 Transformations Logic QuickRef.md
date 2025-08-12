@@ -1,5 +1,5 @@
 ___
-🎯 Purpose
+## 🎯 Purpose
 
 This QuickRef provides reusable code snippets and logic patterns for performing feature transformations before modeling. Includes encoding, scaling, normalization, binning, and mathematical transformations.
 

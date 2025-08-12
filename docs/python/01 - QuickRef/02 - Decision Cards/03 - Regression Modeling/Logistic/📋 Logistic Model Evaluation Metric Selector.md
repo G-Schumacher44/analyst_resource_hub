@@ -1,5 +1,5 @@
 ___
-🎯 Purpose
+## 🎯 Purpose
 
 Use this card to decide which classification metric (Accuracy, Precision, Recall, AUC, F1) to prioritize when evaluating a logistic regression model. Grounded in business impact, class imbalance, and prediction cost.
 

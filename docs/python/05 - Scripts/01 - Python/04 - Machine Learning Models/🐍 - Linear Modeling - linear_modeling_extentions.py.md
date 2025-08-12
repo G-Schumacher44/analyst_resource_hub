@@ -1,3 +1,6 @@
+
+# Linear Modeling Extentions
+
 ___
 ## 📲 **Function Calls & Imports
 ```python

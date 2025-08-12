@@ -1,5 +1,5 @@
 ___
-🎯 Purpose
+## 🎯 Purpose
 
 Use this card to choose between **Binary**, **Multiclass (Multinomial)**, or **Ordinal** Logistic Regression models based on the nature of your target variable.
 

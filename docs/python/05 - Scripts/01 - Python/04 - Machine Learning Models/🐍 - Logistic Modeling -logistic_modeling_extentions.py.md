@@ -1,5 +1,5 @@
 ____
-# logistic_modeling_extensions.py
+# Logistic Modeling Extentions
 
 ##📲 **Function calls and Imports**
 ```python

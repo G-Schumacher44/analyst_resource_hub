@@ -6,7 +6,7 @@ These resources help analysts and data scientists select the most appropriate st
 
 Whether you are preparing raw datasets for modeling, cleaning complex feature sets, or conducting in-depth exploratory data analysis (EDA), these cards provide quick, evidence-based decision frameworks to ensure data quality, maintain statistical integrity, and streamline the path from raw data to actionable insights.
 
-## Available Decision Cards
+## 📂 Available Decision Cards
 
 - [📋 EDA Strategy Decision Card](📋%20EDA%20Strategy%20Decision%20Card.md)
 - [📋 Encoding Strategy Decision Card](📋%20Encoding%20Strategy%20Decision%20Card.md)

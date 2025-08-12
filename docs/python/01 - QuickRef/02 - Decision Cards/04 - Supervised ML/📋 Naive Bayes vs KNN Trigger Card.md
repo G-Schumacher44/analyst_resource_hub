@@ -1,5 +1,5 @@
 ___
-🎯 Purpose
+## 🎯 Purpose
 
 Use this card to choose between **Naive Bayes (NB)** and **K-Nearest Neighbors (KNN)** for fast, interpretable classification — especially in early exploration or small-to-medium-sized projects.
 

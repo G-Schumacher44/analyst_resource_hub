@@ -1,4 +1,4 @@
- 🎯 Purpose
+## 🎯 Purpose
 
 This QuickRef provides a concise, repeatable checklist and syntax starter for exploratory data analysis. It includes structural diagnostics, missingness checks, distribution metrics, and common statistical diagnostics — all optimized for notebook use.
 

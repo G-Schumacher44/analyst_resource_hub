@@ -1,5 +1,5 @@
 ___
-🎯 Purpose
+## 🎯 Purpose
 
 This QuickRef provides a clean walkthrough for using **ElasticNet Regression**, which blends Ridge and Lasso to balance shrinkage and sparsity in high-dimensional linear models.
 

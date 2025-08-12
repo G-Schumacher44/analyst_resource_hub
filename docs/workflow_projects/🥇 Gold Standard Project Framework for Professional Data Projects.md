@@ -1,4 +1,6 @@
 
+# Gold Standard for Data Projects
+
 This guide outlines modular, reusable, real-world project steps for any serious data science, analytics, or scientific modeling work — based on operational best practices and scientific credibility standards.
 
 ---

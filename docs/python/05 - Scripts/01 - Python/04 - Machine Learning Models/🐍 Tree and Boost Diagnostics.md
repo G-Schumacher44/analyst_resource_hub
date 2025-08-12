@@ -1,7 +1,9 @@
-___
-📜 - Make recall
+
+# 🌲 Tree and Boost Model Quick Diagnostics
+
+
 ```python
-def make_results(model_name:str, model_object, metric:str):
+def get_results(model_name:str, model_object, metric:str):
     '''
     Arguments:
         model_name (string): what you want the model to be called in the output table

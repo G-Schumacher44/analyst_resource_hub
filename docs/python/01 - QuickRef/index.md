@@ -8,7 +8,7 @@ This section serves as a centralized library of high-utility resources for Pytho
 
 Use these resources to accelerate project startup, maintain methodological rigor, and support defensible, well-documented decisions throughout your analysis lifecycle.
 
-# Section Links
+## 📂 Section Links
 
 - [✅ Workflow Checklists](01%20-%20Checklists/index.md)
 

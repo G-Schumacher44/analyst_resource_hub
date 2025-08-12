@@ -1,5 +1,5 @@
 ___
- 🎯 Purpose
+## 🎯 Purpose
 
 Use this card to decide how to handle missing values — whether to drop, impute, or flag — based on the type of missingness, percent nulls, and modeling implications.
 

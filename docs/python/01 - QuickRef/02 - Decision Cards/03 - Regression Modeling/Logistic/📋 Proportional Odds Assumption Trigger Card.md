@@ -1,5 +1,5 @@
 ___
-🎯 Purpose
+## 🎯 Purpose
 
 Use this card to decide whether **Ordinal Logistic Regression** is appropriate by evaluating the **Proportional Odds (PO)** assumption. PO assumes that predictor effects are constant across all cumulative logit thresholds.
 

@@ -1,11 +1,11 @@
 ___
-**🎯 Purpose**
+## 🎯 Purpose
 
 This QuickRef consolidates EDA prep, model fitting, diagnostics, and decision rules for using Ordinary Least Squares (OLS) and Robust Linear Regression. Designed for modelers who need a single, notebook-friendly reference.
 
 ---
 
-**📦 1. EDA Prep for Linear Regression**
+## 📦 1. EDA Prep for Linear Regression**
 
 |**Step**|**Code**|
 |---|---|
@@ -20,7 +20,7 @@ This QuickRef consolidates EDA prep, model fitting, diagnostics, and decision ru
 
 ---
 
-**🔧 2. Feature Transformation Triggers**
+## 🔧 2. Feature Transformation Triggers**
 
 |**Condition**|**Suggestion**|
 |---|---|
@@ -30,7 +30,7 @@ This QuickRef consolidates EDA prep, model fitting, diagnostics, and decision ru
 
 ---
 
-**📐 3. Model Assumptions (OLS)**
+## 📐 3. Model Assumptions (OLS)**
 
 |**Assumption**|**Diagnostic**|
 |---|---|
@@ -48,7 +48,7 @@ het_breuschpagan(residuals, model.model.exog)
 
 ---
 
-**⚖️ 4. When to Use Robust Regression**
+## ⚖️ 4. When to Use Robust Regression**
 
 |**Problem**|**Use Robust If…**|
 |---|---|
@@ -67,7 +67,7 @@ sm.RLM(y, X).fit()
 
 ---
 
-**📊 5. Output Interpretation (OLS & Robust)**
+## 📊 5. Output Interpretation (OLS & Robust)**
 
 |**Coefficient**|**Interpretation**|
 |---|---|
@@ -80,7 +80,7 @@ sm.RLM(y, X).fit()
 
 ---
 
-**✅ Final Model Checklist**
+## ✅ Final Model Checklist**
 
 • Residuals reviewed (linearity + normality)
 

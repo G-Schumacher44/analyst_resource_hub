@@ -1,4 +1,4 @@
-# 🌟 Bonus / Optional EDA Visualizations (Tier 3)
+# 🌟 Bonus / Optional EDA Visualizations 
 
 ___
 # **🏃🏼‍♂️ Function calls**

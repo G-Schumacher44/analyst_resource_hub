@@ -1,6 +1,6 @@
 ___
-# 🐧 Penguin Research Toolkit - EDA Template Functions
-# Version: 0.2 (May 2025)
+# EDA Template Functions
+
 
 ---
 

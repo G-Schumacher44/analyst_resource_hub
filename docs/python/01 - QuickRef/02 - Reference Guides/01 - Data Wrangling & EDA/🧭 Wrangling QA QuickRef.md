@@ -1,5 +1,5 @@
 ___
-🎯 Purpose
+## 🎯 Purpose
 
 This QuickRef provides a compact checklist and syntax guide for identifying structural and content issues during early data wrangling. It is ideal for validating schema alignment, type consistency, and common integrity flags before cleaning or transformation.
 

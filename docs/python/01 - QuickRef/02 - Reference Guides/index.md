@@ -1,6 +1,6 @@
 
 
-# 🧭 Quick References — Overview
+# 🧭 Quick References Guides — Overview
 
 The **Quick References** section provides streamlined, topic-specific guides for analysts, data scientists, and developers who need fast access to essential methods, workflows, and best practices.  
 Each guide distills complex topics into actionable insights, allowing for **rapid recall and application** without needing to search through full-length documentation.  
