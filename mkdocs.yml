@@ -26,13 +26,13 @@ theme:
     text: Inter
     code: Fira Code
   palette:
-    - scheme: default
+    - scheme: slate
       primary: custom
       accent: indigo
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-    - scheme: slate
+    - scheme: default
       primary: custom
       accent: indigo
       toggle:
@@ -144,7 +144,7 @@ nav:
               - "Visual Interpretation": "python/02 - Data Wrangling & EDA/EDA/📊 Visual EDA Interpretation Guide.md"
               - "Advanced Guidebook": "python/02 - Data Wrangling & EDA/EDA/📘 Advanced EDA Guidebook.md"
               - "General Guidebook": "python/02 - Data Wrangling & EDA/EDA/📘 General EDA Guidebook.md"
-      - "Cleaning":
+      - "Data Hygiene":
           - "Overview": python/03 - Cleaning/index.md
           - "Part 1 - Foundational": "python/03 - Cleaning/📘 Cleaning Guide — Part 1 - Foundational Cleaning & Normalization.md"
           - "Part 2 - Advanced": "python/03 - Cleaning/📘 Cleaning Guide — Part 2 - Advanced Cleaning & Production QA.md"
@@ -238,7 +238,7 @@ nav:
               - "Looker Studio for Analysts": "sql/02 - BigQuery and Looker/02 - Looker Studio/📘 Looker Studio for Analysts — Guidebook.md"
               - "Looker Studio Filters & Parameters Guidebook": "sql/02 - BigQuery and Looker/02 - Looker Studio/📘 Looker Studio Filters & Parameters Guidebook.md"
               - "Looker Studio UX & Layout Strategy Guidebook": "sql/02 - BigQuery and Looker/02 - Looker Studio/📘 Looker Studio UX & Layout Strategy Guidebook.md"
-  - "Production & Project Guidence":
+  - "Production & Projects":
       - "Overview": "workflow_projects/index.md"
       - "Project Guidence":
          - "Frameworks & Checklists":

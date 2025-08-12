@@ -57,3 +57,8 @@
   align-items: center;
   margin-right: .25rem;
 }
+/* Softer light mode */
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: #fafbfb; /* Light grey */
+  --md-default-fg-color: #000000;    /* Darker text for contrast */
+}

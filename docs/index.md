@@ -2,10 +2,10 @@
 <div class="hero">
   <h1 style="color: white; font-weight: bold;">🗂 Analyst Resource Hub</h1>
   <div class="hero-actions">
-    <a href="python/" class="md-button md-button--primary">🐍 Browse Python</a>
-    <a href="python/05%20-%20Scripts/01%20-%20Python/" class="md-button md-button--primary">🛠️ Scripts(Python)</a>
-    <a href="workflow_projects/" class="md-button md-button--primary">📦 Production & Projects</a>
-    <a href="sql/" class="md-button md-button--primary">🗄️ SQL & BI Tools</a>
+    <a href="python/" class="md-button md-button--primary">Python Resources</a>
+    <a href="python/05%20-%20Scripts/01%20-%20Python/" class="md-button md-button--primary">Tools & Scripts</a>
+    <a href="workflow_projects/" class="md-button md-button--primary">Production & Projects</a>
+    <a href="sql/" class="md-button md-button--primary">SQL & BI Tools</a>
   </div>
 </div>
 
@@ -175,7 +175,7 @@
 
 <div class="home-grid">
   <div class="home-card">
-    <h2>🐍 Python</h2>
+    <h2>🐍 Python Resources</h2>
     <p>QuickRefs, EDA, cleaning, modeling, and runnable scripts.</p>
     <div class="links">
       <a class="md-button" href="python/01%20-%20QuickRef/">QuickRef</a>
@@ -186,7 +186,7 @@
   </div>
 
   <div class="home-card">
-    <h2>🛠️ Scripts (Python)</h2>
+    <h2>🛠️ Tools & Scripts</h2>
     <p>Starter scripts and boilerplate for EDA, cleaning, modeling, and utilities.</p>
     <div class="links">
       <a class="md-button" href="python/05%20-%20Scripts/01%20-%20Python/02%20-%20EDA/">EDA Scripts</a>
@@ -197,7 +197,7 @@
   </div>
 
   <div class="home-card">
-    <h2>🗄️ SQL</h2>
+    <h2>🗄️ SQL & BI Tools</h2>
     <p>Guidebooks, BigQuery patterns, and Looker Studio best practices.</p>
     <div class="links">
       <a class="md-button" href="sql/01%20-%20Guidebooks/">Guidebooks</a>
@@ -207,10 +207,10 @@
   </div>
 
   <div class="home-card">
-    <h2>📦 Workflow & Projects</h2>
+    <h2>📦 Production & Projects</h2>
     <p>Project scaffolds, delivery checklists, and pipelines.</p>
     <div class="links">
-      <a class="md-button" href="workflow_projects/">Workflow Hub</a>
+      <a class="md-button" href="workflow_projects/">Projects Hub</a>
     </div>
   </div>
 </div>
