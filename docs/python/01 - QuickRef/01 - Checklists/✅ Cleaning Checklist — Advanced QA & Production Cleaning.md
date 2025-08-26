@@ -1,4 +1,4 @@
-___
+---
 ## 🎯 Purpose
 
 Use this checklist to ensure that datasets meet integrity standards for downstream modeling, publication, or deployment. It supports rule-based validation, field logic enforcement, and audit-driven documentation.

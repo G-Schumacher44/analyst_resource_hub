@@ -1,4 +1,4 @@
-___
+---
 🎯 Purpose
 
 This guidebook focuses on **practical SQL patterns** used to solve real-world analytics problems — especially for retention, churn, funnel analysis, cohorts, and customer metrics.

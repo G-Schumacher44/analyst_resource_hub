@@ -1,4 +1,4 @@
-___
+---
 ## 🎯 Purpose
 
 This QuickRef explains how to use **HDBSCAN** — a powerful clustering algorithm that extends DBSCAN to better handle **variable-density** clusters and large, high-dimensional datasets.

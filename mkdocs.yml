@@ -144,7 +144,7 @@ nav:
               - "Visual Interpretation": "python/02 - Data Wrangling & EDA/EDA/📊 Visual EDA Interpretation Guide.md"
               - "Advanced Guidebook": "python/02 - Data Wrangling & EDA/EDA/📘 Advanced EDA Guidebook.md"
               - "General Guidebook": "python/02 - Data Wrangling & EDA/EDA/📘 General EDA Guidebook.md"
-      - "Data Hygiene":
+      - "Data Cleaning":
           - "Overview": python/03 - Cleaning/index.md
           - "Part 1 - Foundational": "python/03 - Cleaning/📘 Cleaning Guide — Part 1 - Foundational Cleaning & Normalization.md"
           - "Part 2 - Advanced": "python/03 - Cleaning/📘 Cleaning Guide — Part 2 - Advanced Cleaning & Production QA.md"
@@ -218,6 +218,7 @@ nav:
       - SQL Guidebooks:
           - "Overview": sql/01 - Guidebooks/index.md
           - Fundamentals:
+              - "Getting Started Guide": "sql/01 - Guidebooks/📘 SQL Getting Started Guide.md"
               - "SQL Basics Guidebook": "sql/01 - Guidebooks/📘 SQL Basics Guidebook.md"
               - "Advanced SQL Guidebook": "sql/01 - Guidebooks/📘 Advanced SQL Guidebook.md"
           - Use Cases:

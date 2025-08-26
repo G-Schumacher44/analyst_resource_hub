@@ -1,4 +1,4 @@
-___
+---
 🎯 Purpose
 
 This guidebook expands your SQL skillset with intermediate-to-advanced techniques: **window functions**, **CTEs**, **subqueries**, **CASE logic**, **date math**, and **analytics-friendly patterns**.

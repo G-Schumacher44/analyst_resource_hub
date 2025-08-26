@@ -1,4 +1,4 @@
-___
+---
 ## 🎯 Purpose
 
 This QuickRef outlines reusable logic for validating incoming datasets before modeling. Includes type checks, schema alignment, range tests, and conditional rules — suitable for notebooks or production pipelines.

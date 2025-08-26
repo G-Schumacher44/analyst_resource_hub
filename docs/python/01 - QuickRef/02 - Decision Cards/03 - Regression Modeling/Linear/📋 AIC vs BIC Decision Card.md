@@ -1,7 +1,7 @@
-___
+---
 ## 🎯 Purpose
 Choose between AIC and BIC for model selection based on your project goals.
-___
+---
 ## 📚 What They Measure
 
 - **AIC (Akaike Information Criterion)**  

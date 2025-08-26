@@ -1,4 +1,4 @@
-___
+---
 🎯 Purpose
 
 This guidebook provides **battle-tested, advanced analyst SQL patterns** for real-world production and investigative workflows: LTV segmentation, behavioral funnel drop-off, anomaly detection, and stacked cohort-layered metrics.

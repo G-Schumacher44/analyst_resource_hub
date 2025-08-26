@@ -60,12 +60,14 @@ LEFT JOIN orders o ON u.id = o.user_id;
 
 * Includes all users, even those with no orders (NULL-filled)
 
-### 🔹 FULL OUTER JOIN *(If supported)*
+### 🔹 FULL OUTER JOIN
 
 * Includes all rows from both tables
+* Note: Not all SQL dialects support this join type.
 
-### 🔹 SELF JOIN *(e.g., user referral networks)*
+### 🔹 SELF JOIN
 
+* A table joined to itself, useful for hierarchical data like user referral networks.
 ```sql
 SELECT a.name, b.name AS referred_by
 FROM users a
@@ -133,12 +135,30 @@ FROM scores;
 
 ---
 
+## 6️⃣ Set Operators (UNION, INTERSECT, EXCEPT)
+
+Set operators combine the results of two or more `SELECT` statements into a single result set. The columns in each `SELECT` must have the same number of columns and compatible data types.
+
+| Operator      | Purpose                                                              | Example Query                                            |
+| ------------- | -------------------------------------------------------------------- | -------------------------------------------------------- |
+| `UNION`       | Combines results and removes duplicate rows.                         | `SELECT email FROM list_a UNION SELECT email FROM list_b;`      |
+| `UNION ALL`   | Combines results but **keeps** all duplicate rows. Faster.           | `SELECT email FROM list_a UNION ALL SELECT email FROM list_b;`  |
+| `INTERSECT`   | Returns only the rows that appear in **both** result sets.           | `SELECT id FROM group_a INTERSECT SELECT id FROM group_b;`      |
+| `EXCEPT`      | Returns rows from the first query that are **not** in the second.    | `SELECT id FROM all_users EXCEPT SELECT id FROM banned_users;`  |
+
+✔️ **Tip:** `UNION ALL` is almost always preferred over `UNION` unless you specifically need to deduplicate, as it avoids the performance cost of the duplicate check.
+
+---
+
 ## ✅ Analyst Use Cases This Covers
 
 * Pulling raw data for EDA
 * Segmenting users, orders, or events
 * Counting or ranking behaviors (signup, conversion)
 * Filtering production tables for modeling
+* Combining historical and current data from different tables
+* Finding common records between two datasets (`INTERSECT`)
+* Creating exclusion lists (`EXCEPT`)
 
 ---
 

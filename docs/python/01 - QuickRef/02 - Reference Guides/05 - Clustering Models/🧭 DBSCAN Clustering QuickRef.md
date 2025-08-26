@@ -1,4 +1,4 @@
-___
+---
 🎯 Purpose
 
 This QuickRef explains how to use **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)** — an unsupervised algorithm that groups data based on point density.

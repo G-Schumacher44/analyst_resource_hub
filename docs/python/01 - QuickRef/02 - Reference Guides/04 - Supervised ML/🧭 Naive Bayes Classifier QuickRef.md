@@ -1,4 +1,4 @@
-___
+---
 🎯 Purpose
 
 This QuickRef covers **Naive Bayes Classifiers** — fast, probabilistic models ideal for text classification, categorical data, and scenarios where independence assumptions are tolerable.

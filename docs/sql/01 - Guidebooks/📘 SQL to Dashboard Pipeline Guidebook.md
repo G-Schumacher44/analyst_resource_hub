@@ -1,4 +1,4 @@
-___
+---
 🎯 Purpose
 
 This guidebook explains how to design SQL logic specifically for **use in dashboards** like Looker Studio. It focuses on the pipeline from raw table → clean view → dashboard-ready layer — balancing clarity, performance, and stakeholder usability.
